@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "axios": "^0.27.2",
+    "node-emoji": "^1.11.0",
+    "node-telegram-bot-api": "^0.57.0",
+    "open": "^8.4.0"
+  }
+}
