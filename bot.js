@@ -3,8 +3,8 @@ const TelegramBot = require('node-telegram-bot-api');
 const axios = require('axios');
 const spawn = require('child_process').spawn;
 
-const TELEGRAM_BOT_TOKEN = '5538937643:AAFS4YIM5MblCTbWGE9ozEIXeIpIFOrEOa0';
-const YA_CLOUD_KEY = 'AQVN2eSnkw-7sj2nYmFdEfTPxEHSY865gJwdX_ut';
+const TELEGRAM_BOT_TOKEN = '__YOUR_TELEGRAM_BOT_TOKEN__';
+const YA_CLOUD_KEY = '__YOUR_YANDEX_CLOUD_KEY__';
 
 const emoji = require('node-emoji');
 const bot = new TelegramBot(TELEGRAM_BOT_TOKEN, {polling: true});
